@@ -16,10 +16,10 @@ const domains_for_dl = ['']; // add multiple cloudflare addresses to balance the
 const domain_for_dl = domains_for_dl[Math.floor(Math.random()*domains_for_dl.length)]; // DO NOT TOUCH THIS
 const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN', 'US', 'PK']
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
-    "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
-    "refresh_token": "", // Authorize token
+    "siteName": "Faris Drive", // Website name
+    "client_id": "202264815644.apps.googleusercontent.com", // Client id from Google Cloud Console
+    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Client Secret from Google Cloud Console
+    "refresh_token": "1//0etmp89MBCOxyCgYIARAAGA4SNwF-L9IrckSQjldzca2oc-sGWzFflSWxqXQznSZ1Dt3ZYMG691pjkNSnFNOw7rb9bc4nbSaMWJA", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 50,
@@ -28,10 +28,10 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "",
-          "name": "Drive One",
+          "id": "1ObNwD77-eHqczy_qzZ89VcYveDWqb98r",
+          "name": "Main Drive",
           "protect_file_link": false,
-         // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"farisadmin":"accessindex023"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "",
